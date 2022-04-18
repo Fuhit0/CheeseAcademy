@@ -1,0 +1,376 @@
+body {
+    width: 960px;
+    font-size: 16px;
+    line-height: 1.75em;
+
+}
+
+.top_section {
+    background: url(../img/mainbg.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+h4 {
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+}
+
+.top_p {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.navi {
+    display: flex;
+    height: 80px;
+    width: 50%;
+    padding-bottom: 120px;
+}
+
+.navi_img {
+    height: 40px;
+}
+
+.navi_menu {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navi_menu div {
+    padding: 1em;
+}
+
+.about {
+    text-align: center;
+}
+
+
+.Slideshow {
+    display: flex;
+    padding-top: 80px;
+}
+
+.Slideshow_1,
+.Slideshow_2,
+.Slideshow_3,
+.Slideshow_4 {
+    width: 25%;
+}
+
+.Slideshow_1 img,
+.Slideshow_2 img,
+.Slideshow_3 img,
+.Slideshow_4 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.course {
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.course_1,
+.course_2,
+.course_3 {
+    display: flex;
+}
+
+.course_1 div,
+.course_2 div,
+.course_3 div {
+    width: 50%;
+}
+
+.course_1 img,
+.course_2 img,
+.course_3 img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 32px;
+}
+
+.course_1_text,
+.course_2_text,
+.course_3_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.course_1_text h3,
+.course_1_text p,
+.course_2_text h3,
+.course_2_text p,
+.course_3_text h3,
+.course_3_text p {
+    width: 80%;
+}
+
+.course_1_text h3,
+.course_2_text h3,
+.course_3_text h3 {
+    padding-bottom: 40px;
+}
+
+.news_hed {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.news_hed p {
+    text-align: center;
+}
+
+.News_all {
+    display: flex;
+}
+
+.news_text {
+    width: 90%;
+}
+
+.news_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.news_more div {
+    background-color: yellow;
+    font-size: 21px;
+    color: white;
+    height: 60px;
+    width: 300px;
+    padding-top: 56px;
+    padding-bottom: 48px;
+}
+
+.news_more p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.access {
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.googlemap {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.googlemap:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+    /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.company_1,
+.company_2,
+.company_3,
+.company_4,
+.company_5 {
+    display: flex;
+    background-color: #fafafa;
+}
+
+.company_1 {
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+
+.company_2,
+.company_3,
+.company_4 {
+    padding-bottom: 24px;
+}
+
+.company_5 {
+    padding-bottom: 80px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_answer {
+    height: 25px;
+    width: 328px;
+    background-color: #707070;
+    border: #707070;
+}
+
+.choice {
+    display: flex;
+}
+
+.checkbox {
+    background-color: #707070;
+    height: 25px;
+    width: 25px;
+}
+
+.question_answer_long {
+    background-color: #707070;
+    height: 108px;
+    width: 328px;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.send div {
+    background-color: yellow;
+    font-size: 21px;
+    color: white;
+    height: 60px;
+    width: 300px;
+}
+
+.send p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #707070;
+    height: 82px;
+}
+
+.footer p {
+    display: flexbox;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    color: white;
+}
+
+/*行間調整*/
+.pad_1 {
+    padding-bottom: 24px;
+}
+
+.pad_2 {
+    padding-bottom: 64px;
+}
+
+.pad_3 {
+    padding-bottom: 40px;
+}
+
+.pad_4 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.pad_5 {
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+
+.pad_6 {
+    padding-bottom: 64px;
+}
+
+.pad_7 {
+    padding-right: 150px;
+}
+
+.pad_8 {
+    padding-right: 150px;
+}
+
+.pad_9 {
+    padding-right: 70px;
+}
+
+.pad_10 {
+    padding-right: 53px;
+}
+
+.pad_11 {
+    padding-right: 150px;
+}
+
+.pad_12 {
+    padding-top: 64px;
+}
+
+.pad_13 {
+    padding-bottom: 64px;
+}
+
+.pad_14 {
+    padding-bottom: 32px;
+}
+
+.pad_15 {
+    padding-bottom: 80px;
+}
+
+.pad_16 {
+    padding-top: 32px;
+}
